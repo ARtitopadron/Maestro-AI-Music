@@ -4,7 +4,7 @@
 <div>
   <p>Maestro AI Music</p>
   <p>Un tutor de música impulsado por inteligencia artificial que brinda retroalimentación en tiempo real, genera ejercicios personalizados y rutas de aprendizaje, y ofrece una biblioteca inteligente de transcripciones de canciones simplificadas para acelerar su viaje musical.</p>
-  <p>Sobre mi: Jorge Tito Padrón, el creador de este proyecto Maestro AI Music. Si te gusta lo que ves, puedes conectar conmigo en: LinkedIn: <a href="https://www.linkedin.com/in/jorgealvaropadron/">Jorge Tito Padrón</a>
+  <p>Soy Jorge Tito Padrón, el creador del proyecto Maestro AI Music. Si te gusta mi proyecto de Inteligencia Artificial (IA), puedes conectar conmigo en mi perfil de LinkedIn: <a href="https://www.linkedin.com/in/jorgealvaropadron/">Jorge Tito Padrón</a>
 </p>
 </div>
 
