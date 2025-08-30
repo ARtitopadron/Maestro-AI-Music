@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maestro AI: Music Tutor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #140d17; /* Near black */
+    }
+
+    .custom-input, .custom-select {
+      background-color: #0D1117; /* Darker background */
+      border: 1px solid #30363D; /* Matching card border for consistency */
+      border-radius: 0.5rem; /* rounded-lg */
+      padding: 0.625rem 0.75rem; /* py-2.5 px-3 */
+      color: white;
+      width: 100%;
+      transition: border-color 0.2s ease-in-out;
+    }
+
+    .custom-input:disabled, .custom-select:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+    }
+
+    .custom-select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      /* White arrow */
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+      background-position: right 0.5rem center;
+      background-repeat: no-repeat;
+      background-size: 1.5em 1.5em;
+      padding-right: 2.5rem;
+    }
+
+    .custom-input:focus, .custom-select:focus {
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+        border-color: #3b82f6; /* focus:border-blue-500 */
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.14.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
